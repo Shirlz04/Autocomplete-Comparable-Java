@@ -1,0 +1,53 @@
+1. Enter the number of hours it took you to complete the project between
+   the <<< and >>> signs below (eg, <<<10>>>).
+
+   <<<15>>>
+   
+2. Enter the difficulty level (1: very easy; 5: very difficult) of the project
+   between the <<< and >>> signs below (eg, <<<3>>>).
+
+   <<<2>>>
+
+3. Provide a short description of how you approached each problem, issues you 
+   encountered, and how you resolved those issues.
+
+   Problem 1 (Autocomplete Term): The biggest issue I had with this problem was
+   that I originally started to do string comparisons my self by turning the
+   string into character arrays and finding the sum of the integer value for 
+   each character. I was not getting the correct answers so I did a research 
+   online about string comparisons and I found out that string objects have a 
+   built in function called compareTo() which will do that comparison for me.
+
+   Problem 2 (Binary Search Deluxe): For this problem I modified the sample 
+   binary search code that was found in the text book. Getting an occurence in 
+   array was easy but the biggest issue I had was that I was obtaining the first
+   and the last occurence of term. I realized for the left side I would have to 
+   continue checking that side until I got to index 0 and for the right I  would
+   have to check until I got to the end of the end of the array.
+
+   Problem 3 (Autocomplete): For this problem I had to refer back to my analysis
+   of algorithms presentation to understand how I should complete this problem. 
+   I initially started off doing another binary search between the lowest index 
+   and the highest index and I was not getting all terms I needed. After looking
+   at the performance requirements again for this problem which is logN + MlogM
+   , I realized that I can use loop to iterate through the lowest and hightest 
+   index.
+   
+4. Did you receive help from anyone? List their names, status (classmate, 
+   CS210 grad, TA, other), and the nature of help received.
+
+   Name               Status       Help Received
+   ----               ------       -------------
+
+   I did not receive any help for this project outstide doing researches online
+   and the text book for clarification on a few different methods.
+
+5. List any other comments here. Feel free to provide any feedback on how
+   much you learned from doing the assignment, and whether you enjoyed
+   doing it.
+
+    I think this is probably my first time using binary search and I am very 
+    impressed with the efficiency of it when it comes to large arrays. So far I
+    enjoyed doing this project the most because it was interesting learning how 
+    autocomplete actually works. Especially because we use this feature in our
+    everyday lives either on our phones or on our computers. 
